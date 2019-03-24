@@ -1,0 +1,20 @@
+﻿@model MVCAndEF.Models.UserInfo
+@{
+    Layout = null;
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddUser1</title>
+</head>
+<body>
+    <div> 接收到的数据为</div>
+    <div>通过Action动作参数方式获得的数据:@ViewBag.Message1</div>
+    <div>通过FormCollection对象获得的数据姓名:@TempData["Message2"]</div>
+
+</body>
+</html>
